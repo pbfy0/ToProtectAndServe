@@ -16,7 +16,6 @@ q {
  font-size: 40px;
  font-family: "Futura Condensed";
  font-variant: small-caps;
- border: 2px solid black;
  color: white;
 }
 
@@ -37,16 +36,16 @@ q {
  margin: -25px -5px 0px;
  padding: 0px 5px;
  background-color: #f0ea1a;
- font-family: "Futura Condensed";
+ font-family: "Futura Condensed", sans-serif;
  overflow: hidden;
  
 /*  min-width: 400px*/
 }
 #links span {
- margin-top: -45px;
+ margin-top: -8px;
  height: 60px;
  display: inline-block;
- vertical-align: middle;
+ vertical-align: top;
 }
 #links:after {
   content: '';
@@ -55,22 +54,30 @@ q {
 }
 
 #content {
- width: 80%;
- margin: 0px auto;
+ margin: 0px 10%;
  font-size: 25px;
- margin-top: -12px;
+ margin-top: 0px;
  padding: 10px;
  padding-top: 70px;
  background-color: darkgray;
- border-radius: 10px;
+ border-radius: 0px 0px 10px 10px;
  text-align: justify;
 }
-
+#color {
+ margin-left: auto;
+ margin-right: 10%;
+ margin-top: -50px;
+ padding: 10px;
+ height: 17px;
+ width: 27%;
+ background-color: darkgray;
+}
 p {
  margin-left: 20px;
 }
 
 body {
  background-color: #999;
-/* overflow-x: hidden;*/
+ overflow-x: hidden;
+ min-width: 1050px;
 }
