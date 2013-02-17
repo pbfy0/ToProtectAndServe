@@ -17,6 +17,13 @@ q {
  font-family: "Futura Condensed";
  font-variant: small-caps;
  color: white;
+ background-image: url("images/badge.png");
+ background-size: 125px 175px;
+ background-repeat: no-repeat;
+ padding-left: 125px;
+ height: 165px;
+ position: relative;
+ 
 }
 
 @font-face {
@@ -24,16 +31,21 @@ q {
  src: url("Futura Condensed Bold.ttf");
 }
 
+@font-face {
+ font-family: "Cubic";
+ src: url("Cubic.ttf");
+}
+
 #links {
  height: 60px;
  text-align: justify;
- font-size: 60px;
+ font-size: 50px;
  transform: rotate(-5deg);
  -webkit-transform: rotate(-5deg);
  -moz-transform: rotate(-5deg);
  -ms-transform: rotate(-5deg);
  -o-transform: rotate(-5deg);
- margin: -25px -5px 0px;
+ margin: -100px -5px 0px;
  padding: 0px 5px;
  background-color: #f0ea1a;
  font-family: "Futura Condensed", sans-serif;
@@ -41,11 +53,17 @@ q {
  
 /*  min-width: 400px*/
 }
-#links span {
- margin-top: -8px;
+#links * {
+ margin-top: 0px;
  height: 60px;
  display: inline-block;
  vertical-align: top;
+ color: black;
+}
+
+#links a:hover {
+ color: #222;
+ text-decoration: none;
 }
 #links:after {
   content: '';
@@ -72,12 +90,18 @@ q {
  width: 27%;
  background-color: darkgray;
 }
-p {
+#content p {
  margin-left: 20px;
+ margin-top: 1em;
+}
+
+#content p:first-of-type {
+ margin-top: 0px;
 }
 
 body {
  background-color: #999;
+ background-image: url("images/tile.png");
  overflow-x: hidden;
  min-width: 1050px;
 }
