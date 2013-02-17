@@ -23,7 +23,7 @@ q {
  padding-left: 125px;
  height: 165px;
  position: relative;
- 
+ z-index: 1;
 }
 
 @font-face {
@@ -72,9 +72,8 @@ q {
 }
 
 #content {
- margin: 0px 10%;
+ margin: 0px 100px 10%;
  font-size: 25px;
- margin-top: 0px;
  padding: 10px;
  padding-top: 70px;
  background-color: darkgray;
@@ -101,7 +100,7 @@ q {
 
 body {
  background-color: #999;
- background-image: url("images/tile.png");
+ background-image: url("images/dark_linen.png");
  overflow-x: hidden;
  min-width: 1050px;
 }
