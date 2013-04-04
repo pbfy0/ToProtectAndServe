@@ -1,0 +1,41 @@
+#event > a, #nav a {
+	display: block;
+}
+
+#event {
+	border-left: 1px solid black;
+}
+
+#timeline > div {
+	overflow-y: scroll;
+	height: 10em;
+	padding: 10px;
+}
+
+
+#nav {
+	float: left;
+}
+
+#timeline {
+ border: 2px solid black;
+ width: 80%;
+ margin: 0px auto;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -o-border-radius: 10px;
+ -ms-border-radius: 10px;
+ border-collapse: separate;
+}
+
+.fade {
+	transition: background-color 1s;
+	-moz-transition: background-color 1s; /* Firefox 4 */
+	-webkit-transition: background-color 1s; /* Safari and Chrome */
+	-o-transition: background-color 1s; /* Opera */
+}
+
+#event div {
+	margin-bottom: 1em;
+}

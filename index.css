@@ -1,11 +1,11 @@
-#c {
+/*#c {
  transform: rotate(-10deg);
  -webkit-transform: rotate(-10deg);
  -moz-transform: rotate(-10deg);
  -ms-transform: rotate(-10deg);
  -o-transform: rotate(-10deg);
 }
-
+*/
 /*#tpas {
  quotes: "“" "”";
 }*/
@@ -58,6 +58,10 @@
  margin-top: -2em;
 }
 
+.left {
+	text-align: left !important;
+}
+
 #tpas {
  display: inline-block;
  padding: 5px;
@@ -66,8 +70,10 @@
  font-variant: small-caps;
  color: white;
  vertical-align: top;
-/* background-image: url("images/badge.png");
- background-size: 125px 175px;
+ position: relative;
+ z-index: 1;
+/* background-image: url("images/badge.jpg");
+ background-size: 125px 400px;
  background-repeat: no-repeat;
  padding-left: 125px;
  height: 165px;*/
@@ -81,7 +87,10 @@
 
 @font-face {
  font-family: "Futura Condensed";
- src: url("Futura Condensed Bold.ttf");
+ src: url('fonts/Futura Condensed Bold.eot?#iefix') format('embedded-opentype'),
+	url('fonts/Futura Condensed Bold.woff') format('woff'),
+	url('fonts/Futura Condensed Bold.ttf') format('truetype'),
+	url('fonts/Futura Condensed Bold.svg#FuturaCondBold') format('svg');
 }
 
 @font-face {
@@ -124,16 +133,18 @@
  vertical-align: top;
  color: black;
  font-family: "Futura Condensed", sans-serif;
-
+ text-decoration: none;
 }
 
 #links *:first-child{
- margin-left: 125px;
+ margin-left: 150px !important;
+ position: relative;
+ z-index: 10;
 }
 
-a:hover {
- color: #222;
- text-decoration: none;
+#links a:hover {
+ color: #555 !important;
+/* font-size: 105%;*/
 }
 #links:after {
   content: '';
@@ -199,14 +210,7 @@ footer {
  -moz-border-radius: 8px;
  -o-border-radius: 8px;
  -ms-border-radius: 8px;
-}
-
-#event > div {
- display: none;
-}
-
-#nav {
- border-right: 1px solid black;
+ height: 400px;
 }
 
 .smooth {
@@ -216,25 +220,12 @@ footer {
  -o-transition: top 1.5s, margin-bottom 1.5s; /* Opera */
 }
 
-#timeline {
- border: 2px solid black;
- width: 80%;
- margin: 0px auto;
- height: 10em;
- overflow-y: scroll;
- border-radius: 10px;
- -webkit-border-radius: 10px;
- -moz-border-radius: 10px;
- -o-border-radius: 10px;
- -ms-border-radius: 10px;
- border-collapse: separate;
-}
 
 body {
  background-color: #999;
  background-image: url("images/bkg.png");
  overflow-x: hidden;
- min-width: 1050px;
+ min-width: 1180px;
 }
 
 ::selection {
@@ -242,11 +233,15 @@ body {
 	color: white;
 }
 
-.blobs div {
-	width: 200px;
-	height: 150px;
-	border: 1px solid black;
-	border-radius: 7px;
-	display: inline-block;
-	margin: 10px;
+ul {
+ padding-left: 1em !important;
 }
+
+/*.blobs div:last-child {
+	display: none;
+}*/
+
+#ti  { background-image: url("images/gradient/timeline.png") }
+#te { background-image: url("images/gradient/technology.png") }
+#i { background-image: url("images/gradient/interview.png") }
+#c { background-image: url("images/gradient/consequences.png") }

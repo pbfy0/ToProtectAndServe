@@ -1,3 +1,4 @@
+
 window.addEventListener("load", load, false);
 
 $ = function(sel){return document.querySelector(sel)}
@@ -21,9 +22,10 @@ function load(){
  sn = slides.children.length;
  $("#down div").addEventListener("click", d_slide, false)
  $("#up div").addEventListener("click", u_slide, false)
+ setInterval(d_slide, 6000)
 }
 
-function u_slide(){
+function d_slide(){
  enslide(true)
  slides.children[0].style.top = slides.children[0].style.marginBottom = "-404px";
  setTimeout(function(){
@@ -32,7 +34,7 @@ function u_slide(){
   enslide(false)
  }, 1400)
 }
-function d_slide(){
+function u_slide(){
  var n = slides.children[sn-1];
  slides.insertBefore(n, slides.children[0]);
  n.style.top = n.style.marginBottom = "-404px";

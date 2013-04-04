@@ -36,7 +36,7 @@ html {overflow-y: scroll;}
 
 /* we use a lot of ULs that aren't bulleted. 
 	don't forget to restore the bullets within content. */
-ul {list-style: none;}
+/*ul {list-style: none;}*/
 
 blockquote, q {quotes: none;}
 
@@ -132,8 +132,8 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* we like off-black for text */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
-a:hover {color: #69f;}
+a[href] {color: #03f;}
+a[href]:hover {color: #69f;}
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
