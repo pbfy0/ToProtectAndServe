@@ -25,3 +25,7 @@
 .pop > div {
 	display: none;
 }
+
+.boxes img {
+	float: right;
+}
