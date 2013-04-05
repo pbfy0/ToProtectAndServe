@@ -17,8 +17,8 @@ function load(){
 window.addEventListener("load", load, false);
 
 function eventClick(e){
-	activeel = e.toElement;
-	var el = $(e.toElement.getAttribute("href"));
+	activeel = e.target;
+	var el = $(e.target.getAttribute("href"));
 	el.style.backgroundColor = "rgba(0, 0, 255, 0.5)";
 	setTimeout(function(){
 		el.classList.add("fade");
@@ -34,5 +34,5 @@ function eventClick(e){
 function arrowClick(e){
 	activeel = (e.id == "up") ? activeel.previousElementSibling : activeel.nextElementSibling;
 	activeel.click()
-//	eventClick({toElement: activeel})
+//	eventClick({target: activeel})
 }

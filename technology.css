@@ -26,6 +26,14 @@
 	display: none;
 }
 
-.boxes img {
+.img img {
+	margin-left: 0.5em;
+	display: block;
+}
+
+.img {
+	width: 35%;
+	display: inline-block;
 	float: right;
+	text-align: center;
 }

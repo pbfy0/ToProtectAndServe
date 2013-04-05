@@ -8,7 +8,7 @@ console.log('loaded')
 }
 
 function eventClick(e){
-	var el = e.toElement;
+	var el = e.target;
 	window.l = el;
 	console.log(el);
 	if(!(classIter(el, 'pop'))) return;
