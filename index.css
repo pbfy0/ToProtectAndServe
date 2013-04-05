@@ -83,6 +83,7 @@
  height: 165px;
  position: relative;
  z-index: 2;
+ margin-left: 25px;
 }
 
 @font-face {
@@ -137,7 +138,7 @@
 }
 
 #links *:first-child{
- margin-left: 150px !important;
+ margin-left: 175px !important;
  position: relative;
  z-index: 10;
 }
@@ -225,7 +226,7 @@ body {
  background-color: #999;
  background-image: url("images/bkg.png");
  overflow-x: hidden;
- min-width: 1180px;
+ min-width: 1185px;
 }
 
 ::selection {

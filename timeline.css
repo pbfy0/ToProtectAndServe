@@ -27,6 +27,7 @@
  -o-border-radius: 10px;
  -ms-border-radius: 10px;
  border-collapse: separate;
+ background-image: url("timelinebackground.png");
 }
 
 .fade {

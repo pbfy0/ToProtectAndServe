@@ -1,3 +1,26 @@
 #content > div > div {
 	display: none;
 }
+
+.box{
+	padding: 5px 10px;
+	border: 2px solid white;
+	border-radius: 7px;
+	display: inline-block;
+	background-color: gray;
+	margin: 10px;
+	vertical-align: top;
+}
+
+
+.box a {
+	display: block;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.box div {
+	margin-top: 1em;
+}

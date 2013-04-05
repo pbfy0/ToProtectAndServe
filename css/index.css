@@ -87,10 +87,7 @@
 
 @font-face {
  font-family: "Futura Condensed";
- src: url('fonts/Futura Condensed Bold.eot?#iefix') format('embedded-opentype'),
-	url('fonts/Futura Condensed Bold.woff') format('woff'),
-	url('fonts/Futura Condensed Bold.ttf') format('truetype'),
-	url('fonts/Futura Condensed Bold.svg#FuturaCondBold') format('svg');
+ src: url("Futura Condensed Bold.ttf");
 }
 
 @font-face {
@@ -100,7 +97,7 @@
 
 #links {
  height: 60px;
- text-align: left;
+ text-align: justify;
  font-size: 50px;
  transform: rotate(-5deg);
  -webkit-transform: rotate(-5deg);
@@ -114,7 +111,7 @@
  overflow: hidden;
  position: relative;
  z-index: 1;
- text-decoration: none;
+ 
 /*  min-width: 400px*/
 }
 
@@ -133,14 +130,11 @@
  vertical-align: top;
  color: black;
  font-family: "Futura Condensed", sans-serif;
- text-decoration: none;
+
 }
 
 #links *:first-child{
- margin-left: 150px !important;
- position: relative;
- z-index: 10;
- text-decoration: none;
+ margin-left: 125px;
 }
 
 a:hover {
@@ -151,7 +145,6 @@ a:hover {
   content: '';
   width: 100%;
   display: inline-block;
-  text-decoration: none;
 }
 
 #content {
@@ -214,6 +207,14 @@ footer {
  -ms-border-radius: 8px;
 }
 
+#event > div {
+ display: none;
+}
+
+#nav {
+ border-right: 1px solid black;
+}
+
 .smooth {
  transition: top 1.5s,  margin-bottom 1.5s;
  -moz-transition: top 1.5s, margin-bottom 1.5s; /* Firefox 4 */
@@ -221,10 +222,22 @@ footer {
  -o-transition: top 1.5s, margin-bottom 1.5s; /* Opera */
 }
 
+#timeline {
+ border: 2px solid black;
+ width: 80%;
+ margin: 0px auto;
+ height: 10em;
+ overflow-y: scroll;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -o-border-radius: 10px;
+ -ms-border-radius: 10px;
+ border-collapse: separate;
+}
 
 body {
- background-color: #999;
- background-image: url("images/bkg.png");
+ background-color: #darkgray;
  overflow-x: hidden;
  min-width: 1180px;
 }
@@ -232,10 +245,6 @@ body {
 ::selection {
 	background-color: lightblue;
 	color: white;
-}
-
-ul {
- padding-left: 1em !important;
 }
 
 /*.blobs div:last-child {

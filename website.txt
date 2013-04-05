@@ -1,26 +1,26 @@
-﻿1950 - start of timeline
+1950 - start of timeline
 
-1958 - a former marine invents the side-handled baton, which is more effective for many officers than the original baton, which was basically a club.
+1958 - [Side-Handled Baton Invented] former marine invents the side-handled baton, which is more effective for many officers than the original baton, which was basically a club.
 
-1967 - The Presidents Commission on Law Enforcement and Administrative Justice finds that while many police departments have made good use of their new-found technology, most of it could have been adopted about 30 years earlier.
+1967 - [Use of Technology]The Presidents Commission on Law Enforcement and Administrative Justice finds that while many police departments have made good use of their new-found technology, most of it could have been adopted about 30 years earlier.
 
-January, 1968 − 911 invented. In the years following it spreads into universal use.
+January, 1968 − [911 Invented] 911 invented. In the years following it spreads into universal use.
 
-1972 - The National Institute of Justice begins development of a lightweight body armor made from kevlar. 
+1972 - [New Body Armor] The National Institute of Justice begins development of a lightweight body armor made from kevlar. 
 
-1974 - the TASER is developed in its first incarnation, but is classified as a firearm due to its use of gunpowder in 1976.
+1974 - [TASERs] the TASER is developed in its first incarnation, but is classified as a firearm due to its use of gunpowder in 1976.
 
-1982 - Pepper spray, also known as OC spray after the compound it is composed of, is developed.
+1982 - [Pepper Spray] Pepper spray, also known as OC spray after the compound it is composed of, is developed.
 
-1985 - Police in every state are using TASERs, a useful non-lethal weapon if used correctly.
+1985 - [TASERs in Common Use]Police in every state are using TASERs, a useful non-lethal weapon if used correctly.
 
-1986 - DNA evidence used to prove that Richard Buckland didn’t commit two murders, and is later used to prove that the murders were committed by Colin Pitchfork.
+1986 - [DNA Evidence] DNA evidence used to prove that Richard Buckland didn’t commit two murders, and is later used to prove that the murders were committed by Colin Pitchfork.
 
-1993 − About 90% of large police departments use computers.
+1993 − [Mass Computerization] About 90% of large police departments use computers.
 
-November 7, 2005 - First use of the LRAD, a device used to disperse crowds and to provide a means to speak over several communicators is first used to foiled a pirate attack on a cruise ship off the Somali coast.
+November 7, 2005 - [LRADs] First use of the LRAD, a device used to disperse crowds and to provide a means to speak over several communicators is first used to foiled a pirate attack on a cruise ship off the Somali coast.
  ad s
-October, 2006 - The ShotSpotter gunshot locater is first  installed. It is done so in Oakland, and provided local police with ability to precisely locate gunshots, as well as the ability to get to start rushing to the scene the instant the shot is fired.
+October, 2006 - [ShotSpotters]The ShotSpotter gunshot locater is first  installed. It is done so in Oakland, and provided local police with ability to precisely locate gunshots, as well as the ability to get to start rushing to the scene the instant the shot is fired.
 
 April 5, 2013 - End of the timeline
 
@@ -32,4 +32,25 @@ April 5, 2013 - End of the timeline
 
  
  
+
+Technologies:
+
+LRAD:
+
+The Long Range Acoustic Device, or LRAD, is a non-lethal weapon and mass-communication device. It uses sound to create pain by making a loud high frequency noises, or can simply be used as a very loud and long ranged speaker system. These sounds can cause people to stop what they are doing (say, attacking a ship) and cover their ears to block the sound. It can also be used for communication. Its clear, long range sounds can be understood from almost a kilometer away. It has been used to warn boats to move out of the way for military ships, and is also an effective crowd control tool.
+The LRAD works by creating sound with piezoelectric transducers. Piezoelectric transducer changes electricity into sound by having positive and negative elements that align when in the presence of an electrical field. By alternating electrical fields one can cause the material to flip back and forth very quickly. Instead of having one big diaphragm, like a stereo, the LRAD has many small piezoelectric transducers in a staggered pattern. This can create a very loud high frequency noise.
+The LRAD can be used as a non-lethal weapon by creating such a loud high frequency noise it causes pain. At about 130 dB (depending on the person’s pain tolerance) a sound is loud enough to cause pain in the ears. Even though it is a non-lethal weapon there are side effects of being subject to an LRAD such as hearing loss, tinnitus, insomnia, high blood pressure and abnormal heart rate. There is some controversy about the use of the LRAD because even though it is non-lethal it can cause permanent ear damage. Even short exposures to such loud sounds can be very bad for ones hearing and it won’t come back. Also, the LRAD’s effects can be easily be neutralized wearing earbuds or earmuffs.
+Though it has flaws and its effect can easily be nullified the LRAD is a good crowd controller and is good for sending messages. It has been used to defend ships. In 2005, a ship named the Seabourn Spirit was attacked by pirates. The pirates were equipped with machine guns and rocket propelled grenades. The Seabourn Spirit had an LRAD. The LRAD allowed the ship to repulse the pirates with no conflict. The LRAD is a fairly new technology that can be used in many situations, preventing violence and a bad situation.
+
+ShotSpotter:
+
+The ShotSpotter is a new technology used in large cities to precisely locate a gunshot; they are usually installed in the more dangerous parts of the city.  It is very precise in locating the gunshot, but there are several drawbacks. First, the ShotSpotter will sometimes pick up sounds similar to a gunshot, such as firecrackers and construction work. The ShotSpotter is also expensive. In Boston, the police department paid $1.5 million to install the system and maintenance costs from $150,000 to $175,000 per year.  Like most new technologies, there is some controversy about privacy, with people saying that the ShotSpotter is almost like wiretapping; it can listen in on what people are saying. The general argument against this is that the sensors are in public areas—mounted on utility poles and on top of buildings—and if the people didn’t want anything to be overheard they shouldn’t have been speaking in public anyways. Also, ShotSpotters aren’t activated unless they hear a gunshot, in which case they start to record. A ShotSpotter can locate a gunshot within 25 meters. Each ShotSpotter detector is about the size of a thick piece of gum, and is enclosed in a protective case that’s about the size of a loaf of bread. To locate a gunshot one needs several sensors; each sensor will detect how far away the gun was shot.  With the ShotSpotter, police have found that many gunshots are not reported. There may be a reason for this. According to Winston Robinson, the assistant police chief in Washington DC "A lot of these folks who have pistols and guns routinely fire them for no reason at all." Still, there are some instances where there are hurt victims. The ShotSpotter also gets officers to the crime scene as quickly as possible, as they are notified almost immediately. All in all, the ShotSpotter seems to be a very helpful technology, allowing policemen to more effectively catch criminals and potentially help victims. 
+
+GPS Darts:
+
+GPS Darts are small GPS devices that can be shot out of a gun-like machine mounted to the front of a police car. They attach to the back of a fleeing criminal’s car and track the car. Every three to five seconds the police will get an update on where the car is. These devices are far more exact than traditional GPS devices. The GPS darts allow police officers to track a vehicle without actively pursuing it, thus avoiding a car chase that can be dangerous to not only the people partaking in it (the police and whoever is being chased), but bystanders as well. The criminal will often slow down because they are not being chased by a police officer following them, and can also be ambushed. The GPS dart was put into effect for the first time this year in Austin, Texas. The system costs $4,900 per car, and each dart costs $250. The National Institute of Justice helped pay for these costs. The Austin Police Department hopes this new technology will enhance the safety of their officers and citizens.
+
+TASERs:
+
+Although TASERs were invented some years ago in 1974, they are still being developed today, and it was in the 1980s when they came into common use. TASERs (Tom A. Swift’s Electric Rifle) are essentially primitive stun guns that work by transmitting an electric charge down a cables connected to darts that are shot into the target’s body. The electric charge shocks the target’s body and can immobilize it, although the effect is somewhat less pronounced on people who are under the influence of drugs and alcohol. Because it is non-lethal if used correctly, the TASER gives police an alternative to shooting at criminals with guns to incapacitate them, which often ends up resulting in someone’s death. However, TASERs aren’t often as effective as guns, because of their limited range and the small number of shots they can hold. Because there have been several incidents of death after people have been tased far too many times, TASERs have won much scrutiny, and are considered an instrument of torture by several organizations due to the pain they cause on their targets. There have also been many incidents involving TASERs that were “an excessive use of force” by the police involved. Although there is much controversy surrounding the TASER, it has still saved in excess of 105,293 lives due to its ability to not kill its targets (though this may be a biased statistic; it came from taser.com). As a result of their general non-lethality, TASERs are a common sight on the belts of many police officers.
 
