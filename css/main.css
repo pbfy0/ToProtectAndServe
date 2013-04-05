@@ -107,10 +107,10 @@
 
 @font-face {
  font-family: "Futura Condensed";
- src: url('/fonts/Futura Condensed Bold.eot?#iefix') format('embedded-opentype'),
-	url('/fonts/Futura Condensed Bold.woff') format('woff'),
-	url('/fonts/Futura Condensed Bold.ttf') format('truetype'),
-	url('/fonts/Futura Condensed Bold.svg#FuturaCondBold') format('svg');
+ src: url('../fonts/Futura Condensed Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Futura Condensed Bold.woff') format('woff'),
+	url('../fonts/Futura Condensed Bold.ttf') format('truetype'),
+	url('../fonts/Futura Condensed Bold.svg#FuturaCondBold') format('svg');
 }
 
 #links {
@@ -201,7 +201,7 @@ footer {
 
 body {
  background-color: #999;
- background-image: url("/images/bkg.png");
+ background-image: url("../images/bkg.png");
  overflow-x: hidden;
  min-width: 1185px;
 }
