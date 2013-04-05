@@ -1,0 +1,39 @@
+.boxes{
+	min-width: 10em;
+	padding: 5px 10px;
+	border: 2px solid white;
+	border-radius: 7px;
+	display: inline-block;
+	background-color: gray;
+	line-height: 20px;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.boxes > div {
+	margin-top: 0.5em;
+	line-height: 110%;
+}
+
+.boxes a {
+	display: block;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.pop > div {
+	display: none;
+}
+
+.img img {
+	margin-left: 0.5em;
+	display: block;
+}
+
+.img {
+	width: 35%;
+	display: inline-block;
+	float: right;
+	text-align: center;
+}

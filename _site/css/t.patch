@@ -1,0 +1,180 @@
+1,11d0
+< /*#c {
+<  transform: rotate(-10deg);
+<  -webkit-transform: rotate(-10deg);
+<  -moz-transform: rotate(-10deg);
+<  -ms-transform: rotate(-10deg);
+<  -o-transform: rotate(-10deg);
+< }
+< */
+< /*#tpas {
+<  quotes: "“" "”";
+< }*/
+23,31d11
+< .noselect {
+< 	-webkit-touch-callout: none;
+< 	-webkit-user-select: none;
+< 	-khtml-user-select: none;
+< 	-moz-user-select: none;
+< 	-ms-user-select: none;
+< 	user-select: none;
+< }
+< 
+36,43d15
+< /*#up {
+< 	 margin-bottom: -1em;
+< }
+< 
+< #down {
+< 	margin-top: -1em;
+< }*/
+< 
+61,187d32
+< .left {
+< 	text-align: left !important;
+< }
+< 
+< #tpas {
+<  display: inline-block;
+<  padding: 5px;
+<  font-size: 40px;
+<  font-family: "Futura Condensed";
+<  font-variant: small-caps;
+<  color: white;
+<  vertical-align: top;
+<  position: relative;
+<  z-index: 1;
+< /* background-image: url("images/badge.jpg");
+<  background-size: 125px 400px;
+<  background-repeat: no-repeat;
+<  padding-left: 125px;
+<  height: 165px;*/
+< }
+< 
+< #timg {
+<  height: 165px;
+<  position: relative;
+<  z-index: 2;
+<  margin-left: 25px;
+< }
+< 
+< @font-face {
+<  font-family: "Futura Condensed";
+<  src: url('fonts/Futura Condensed Bold.eot?#iefix') format('embedded-opentype'),
+< 	url('fonts/Futura Condensed Bold.woff') format('woff'),
+< 	url('fonts/Futura Condensed Bold.ttf') format('truetype'),
+< 	url('fonts/Futura Condensed Bold.svg#FuturaCondBold') format('svg');
+< }
+< 
+< @font-face {
+<  font-family: "Cubic";
+<  src: url("Cubic.ttf");
+< }
+< 
+< #links {
+<  height: 60px;
+<  text-align: justify;
+<  font-size: 50px;
+<  transform: rotate(-5deg);
+<  -webkit-transform: rotate(-5deg);
+<  -moz-transform: rotate(-5deg);
+<  -ms-transform: rotate(-5deg);
+<  -o-transform: rotate(-5deg);
+<  margin: -100px -5px 0px;
+<  padding: 0px 5px;
+<  background-color: #f0ea1a;
+< /* font-family: "Futura Condensed", sans-serif;*/
+<  overflow: hidden;
+<  position: relative;
+<  z-index: 1;
+<  
+< /*  min-width: 400px*/
+< }
+< 
+< #copyright {
+<  margin-top: 1em;
+< }
+< 
+< #sources a{
+<  font-size: 15px;
+<  color: white !important;
+< }
+< 
+< #links a, #links span{
+<  height: 60px;
+<  display: inline-block;
+<  vertical-align: top;
+<  color: black;
+<  font-family: "Futura Condensed", sans-serif;
+<  text-decoration: none;
+< }
+< 
+< #links *:first-child{
+<  margin-left: 175px !important;
+<  position: relative;
+<  z-index: 10;
+< }
+< 
+< #links a:hover {
+<  color: #555 !important;
+< /* font-size: 105%;*/
+< }
+< #links:after {
+<   content: '';
+<   width: 100%;
+<   display: inline-block;
+< }
+< 
+< #content {
+<  margin: 0px 10% ;/*100px;*/
+<  font-size: 25px;
+<  padding: 10px;
+<  padding-top: 70px;
+<  background-color: lightgray;
+<  border-radius: 0px 0px 10px 10px;
+<  text-align: justify;
+<  position: relative;
+< }
+< #color {
+<  margin-left: auto;
+<  margin-right: 10%;
+<  margin-top: -50px;
+<  padding: 10px;
+<  height: 17px;
+<  width: 27%;
+<  background-color: lightgray;
+< }
+< #content p {
+<  margin: 1em 20px 0.5em;
+< }
+< 
+< #content p:first-of-type {
+<  margin-top: 0px;
+< }
+< footer {
+<  margin-top: 3em;
+<  text-align: center;
+<  color: white;
+< }
+< 
+225,244d69
+< body {
+<  background-color: #999;
+<  background-image: url("images/bkg.png");
+<  overflow-x: hidden;
+<  min-width: 1185px;
+< }
+< 
+< ::selection {
+< 	background-color: lightblue;
+< 	color: white;
+< }
+< 
+< ul {
+<  padding-left: 1em !important;
+< }
+< 
+< /*.blobs div:last-child {
+< 	display: none;
+< }*/
+< 

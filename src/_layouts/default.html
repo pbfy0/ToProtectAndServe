@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+ <head>
+  <title>{{ page.title }} – To Protect and Serve</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  {% if page.stylesheet %}
+  <link rel="stylesheet" href="css/{{ page.stylesheet }}" />
+  {% endif %}
+  {% if page.script %}
+  <script type="text/javascript" src="js/{{ page.script }}"></script>
+  {% endif %}
+ </head>
+ <body>
+  <header>
+   <a href="/"><img src="images/badge.png" id="timg"/></a>
+   <div id="tpas">
+   {{ page.title }}
+   </div>
+   <div id="links">
+	<a href="timeline.html">TIMELINE</a>
+	<a href="technology.html">TECHNOLOGY</a>
+	<a href="consequences.html">CONSEQUENCES</a>
+	<a href="interview.html">INTERVIEW</a>
+   </div>
+  </header>
+  <div id="color"></div>
+  <div id="content">
+   {{content}}
+  </div>
+  <footer>
+   <div id="sources"><a href="sources.html">Sources</a></div>   <div id="copyright">Copyright © 2013 DeWitt TSA</div>
+  </footer>
+ </body>
+</html>
