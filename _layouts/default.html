@@ -1,17 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
  <head>
   <title>{{ page.title }} – To Protect and Serve</title>
-  <meta charset="utf-8" />
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/main.css" />
-  {% if page.stylesheet %}
-  <link rel="stylesheet" href="css/{{ page.stylesheet }}" />
-  {% endif %}
-  {% if page.script %}
-  <script type="text/javascript" src="js/{{ page.script }}"></script>
-  {% endif %}
+  {% if page.stylesheet %}<link rel="stylesheet" href="css/{{ page.stylesheet }}" />{% endif %}
+  {% if page.script %}<script type="text/javascript" src="js/{{ page.script }}"></script>{% endif %}
  </head>
  <body>
   <header>
@@ -31,7 +26,8 @@
    {{ content }}
   </div>
   <footer>
-   <div id="sources"><a href="sources.html">Sources</a></div>   <div id="copyright">Copyright © 2013. Website by students (TSA IDs) 1004, 1005, 1116, and 1118.</div>
+   <div id="sources"><a href="sources.html">Sources</a></div>
+   <div id="copyright">Copyright © 2013. Website by students (TSA IDs) 1004, 1005, 1116, and 1118.</div>
   </footer>
  </body>
 </html>
