@@ -187,7 +187,8 @@
  background-color: lightgray;
 }
 #content p {
- margin: 1em 20px 0.5em;
+ margin-top: 1em;
+ text-indent: 1.5em;
 }
 
 #content p:first-of-type {
