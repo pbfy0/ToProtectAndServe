@@ -172,6 +172,7 @@
  font-size: 25px;
  padding: 10px;
  padding-top: 70px;
+ background-color: white;
  border-radius: 0px 0px 10px 10px;
  text-align: justify;
  position: relative;
@@ -183,7 +184,7 @@
  padding: 10px;
  height: 17px;
  width: 27%;
- background-color: lightgray;
+ background-color: white;
 }
 #content p {
  margin-top: 1em;
