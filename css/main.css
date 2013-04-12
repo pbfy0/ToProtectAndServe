@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
 .arrow {
 	width: 1em;
 	margin: 0px auto;
@@ -207,6 +209,7 @@ body {
  overflow-x: hidden;
  min-width: 1185px;
  background-repeat: repeat-x;
+ font-family: 'Noto Sans', sens-serif;
 }
 
 ::selection {
