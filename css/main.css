@@ -172,7 +172,8 @@
  font-size: 25px;
  padding: 10px;
  padding-top: 70px;
- background-color: white .1;
+ background-color: rgba(128, 128, 128, 0.5);
+ color: white;
  border-radius: 0px 0px 10px 10px;
  text-align: justify;
  position: relative;
@@ -205,6 +206,7 @@ body {
  background-image: url("../images/bkg.png");*/
  overflow-x: hidden;
  min-width: 1185px;
+ background-repeat: repeat-x;
 }
 
 ::selection {
