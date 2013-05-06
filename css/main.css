@@ -132,7 +132,7 @@
  -o-transform: rotate(-2.5deg);
  margin: -100px -5px 0px;
  padding: 0px 5px;
- font-variant: small-caps;
+ text-transform: uppercase;
  background-color: #f0ea1a;
 /* font-family: "Futura Condensed", sans-serif;*/
  overflow: hidden;
