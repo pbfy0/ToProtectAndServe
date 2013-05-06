@@ -86,7 +86,6 @@
 }
 
 #tpas {
- display: inline-block;
  padding: 5px;
  margin-left: 1em;
  font-size: 40px;
@@ -94,11 +93,6 @@
  font-variant: small-caps;
  color: white;
  vertical-align: top;
- position: relative;
- z-index: 1;
- background-size: 125px 400px;
- background-repeat: no-repeat;
- height: 165px;
 }
 
 #timg {
@@ -130,7 +124,7 @@
  -moz-transform: rotate(-2.5deg);
  -ms-transform: rotate(-2.5deg);
  -o-transform: rotate(-2.5deg);
- margin: -100px -5px 0px;
+ margin: 10px -5px 0px;
  padding: 0px 5px;
  text-transform: uppercase;
  background-color: #f0ea1a;
