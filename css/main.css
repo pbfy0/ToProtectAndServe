@@ -115,6 +115,11 @@
 	url('../fonts/Futura Condensed Bold.svg#FuturaCondBold') format('svg');
 }
 
+@font-face {
+ font-family: "Avenir";
+ src: url('../fonts/avenir.ttf') format('truetype');
+}
+
 #links {
  height: 60px;
  text-align: justify;
@@ -151,6 +156,10 @@
  color: black;
  font-family: "Futura Condensed", sans-serif;
  text-decoration: none;
+}
+
+body {
+ font-family: "Avenir", sans-serif;
 }
 
 #links *:first-child{
