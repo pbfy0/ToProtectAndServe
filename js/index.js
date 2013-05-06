@@ -20,8 +20,8 @@ function enslide(w, sel){
 function load(){
  slides = $("#slides");
  sn = slides.children.length;
- $("#down div").addEventListener("click", d_slide, false)
- $("#up div").addEventListener("click", u_slide, false)
+ $("#down").addEventListener("click", d_slide, false)
+ $("#up").addEventListener("click", u_slide, false)
  setInterval(d_slide, 6000)
 }
 

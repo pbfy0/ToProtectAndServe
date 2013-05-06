@@ -15,7 +15,7 @@
 	display: inline-block;
 }
 
-#up div {
+#up {
  transform: rotate(-90deg);
  -webkit-transform: rotate(-90deg);
  -moz-transform: rotate(-90deg);
@@ -23,7 +23,7 @@
  -o-transform: rotate(-90deg);
 }
 
-#down div {
+#down {
  transform: rotate(90deg); /* Someday.... */
  -webkit-transform: rotate(90deg);
  -moz-transform: rotate(90deg);
