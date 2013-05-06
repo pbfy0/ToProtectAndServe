@@ -158,10 +158,6 @@
  text-decoration: none;
 }
 
-body {
- font-family: "Avenir", sans-serif;
-}
-
 #links *:first-child{
  margin-left: 175px !important;
  position: relative;
@@ -218,7 +214,7 @@ body {
  overflow-x: hidden;
  min-width: 1185px;
  background-repeat: repeat-x;
- font-family: 'Noto Sans', sens-serif;
+ font-family: 'Avenir', sens-serif;
 }
 
 ::selection {
