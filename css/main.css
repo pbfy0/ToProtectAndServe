@@ -132,6 +132,7 @@
  -o-transform: rotate(-2.5deg);
  margin: -100px -5px 0px;
  padding: 0px 5px;
+ font-variant: small-caps;
  background-color: #f0ea1a;
 /* font-family: "Futura Condensed", sans-serif;*/
  overflow: hidden;
@@ -159,11 +160,11 @@
  text-decoration: none;
 }
 
-#links *:first-child{
+/*#links *:first-child{
  margin-left: 175px !important;
  position: relative;
  z-index: 10;
-}
+}*/
 
 #links a:hover {
  color: #555 !important;
