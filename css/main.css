@@ -29,8 +29,6 @@
  -moz-transform: rotate(90deg);
  -ms-transform: rotate(90deg);
  -o-transform: rotate(90deg);
- margin-top: -2em;
- margin-bottom: 2em;
 }
 
 #slides {
