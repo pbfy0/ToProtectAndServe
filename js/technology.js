@@ -11,7 +11,7 @@ console.log('loaded')
 }
 
 function eventClick(e){
-	var el = classIter(e.target, 'box');
+	var el = classIter(e.target, 'pop');
 	if(!el) return;
 	e.preventDefault();
 	activeel.style.display = "";
