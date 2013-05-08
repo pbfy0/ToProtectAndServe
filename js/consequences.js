@@ -6,7 +6,7 @@ var activeel;
 function load(){
 console.log('loaded')
 	$("#content").addEventListener("click", eventClick, false)
-	activeel = $("#content > div > div");
+	activeel = $("#pop");
 /*	activeel.style.display = "block";*/
 }
 
