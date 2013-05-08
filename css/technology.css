@@ -1,11 +1,5 @@
 .boxes{
-	min-width: 10em;
 	padding: 5px 10px;
-	border: 2px solid white;
-	border-radius: 7px;
-	display: inline-block;
-	background-color: gray;
-	line-height: 20px;
 	margin: 10px;
 	vertical-align: top;
 }
