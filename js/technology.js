@@ -6,8 +6,13 @@ var activeel;
 function load(){
 console.log('loaded')
 	$("#content").addEventListener("click", eventClick, false)
-	activeel = $(".pop");
-/*	activeel.style.display = "block";*/
+	var e = document.getElementById(location.hash)
+	if(e){
+		activeel = e;
+		e.style.display = "block";
+	}else{
+		activeel = $(".pop");
+	}
 }
 
 function eventClick(e){
