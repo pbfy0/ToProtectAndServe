@@ -11,7 +11,7 @@ function load(){
 		activeel = e;
 		e.style.display = "block";
 	}else{
-		activeel = $(".box");
+		activeel = $(".item");
 	}
 }
 
