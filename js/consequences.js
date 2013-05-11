@@ -34,4 +34,4 @@ function classIter(e, c){
 	return false;
 }
 
-window.addEventListener("DOMContentReady", load, false)
+window.addEventListener("load", load, false)
