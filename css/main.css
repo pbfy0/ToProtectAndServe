@@ -225,6 +225,8 @@ ul {
 	position: relative;
 	z-index: -10;
 	top: 500px;
+	float: left;
+	width: 100%;
 }
 .spacer {
 	width: 100%;
