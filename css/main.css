@@ -114,7 +114,7 @@
  src: url('../fonts/avenir.ttf') format('truetype');
 }
 
-#links {
+.links {
  height: 60px;
  text-align: justify;
  font-size: 50px;
@@ -144,7 +144,7 @@
  color: white !important;
 }
 
-#links a, #links span{
+.links a, .links span{
  height: 60px;
  display: inline-block;
  vertical-align: top;
@@ -153,17 +153,17 @@
  text-decoration: none;
 }
 
-/*#links *:first-child{
+/*.links *:first-child{
  margin-left: 175px !important;
  position: relative;
  z-index: 10;
 }*/
 
-#links a:hover {
+.links a:hover {
  color: #555 !important;
 /* font-size: 105%;*/
 }
-#links:after {
+.links:after {
   content: '';
   width: 100%;
   display: inline-block;
