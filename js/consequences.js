@@ -16,7 +16,7 @@ function load(){
 }
 
 function eventClick(e){
-	var el = classIter(e.target, 'box');
+	var el = classIter(e.target, 'item');
 	if(!el) return;
 	e.preventDefault();
 	activeel.style.display = "";
@@ -34,4 +34,4 @@ function classIter(e, c){
 	return false;
 }
 
-window.addEventListener("load", load, false)
+window.addEventListener("DOMContentReady", load, false)
