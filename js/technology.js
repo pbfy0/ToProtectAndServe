@@ -11,7 +11,7 @@ console.log('loaded')
 		activeel = e;
 		e.style.display = "block";
 	}else{
-		activeel = $(".pop");
+		activeel = $(".item");
 	}
 }
 

@@ -2,7 +2,7 @@
 	display: none;
 }
 
-.box{
+.item{
 	padding: 5px 10px;
 	border: 2px solid white;
 	border-radius: 7px;
@@ -13,7 +13,7 @@
 }
 
 
-.box a {
+.item a {
 	display: block;
 	text-align: center;
 	color: black;
@@ -21,6 +21,6 @@
 	font-weight: bold;
 }
 
-.box div {
+.item div {
 	margin-top: 1em;
 }
