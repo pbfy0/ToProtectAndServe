@@ -19,13 +19,12 @@ function eventClick(e){
 	var el = classIter(e.target, 'item');
 	if(!el) return;
 	var nel = el.querySelector("div");
-	var oel = activeel;
 	e.preventDefault();
-	activeel.style.display = "";
-	activeel = nel;
-	if(nel == oel){
+	if(nel == activeel){
 		activeel.style.display = activeel.style.display == "block" ? "" : "block"
 	}else{
+		activeel.style.display = "";
+		activeel = nel;
 		activeel.style.display = "block";
 	}
 }
