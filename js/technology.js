@@ -23,7 +23,11 @@ function eventClick(e){
 	e.preventDefault();
 	activeel.style.display = "";
 	activeel = nel;
-	if(nel != oel) activeel.style.display = "block";
+	if(nel == oel){
+		activeel.style.display = activeel.style.display ? "block" : ""
+	}else{
+		activeel.style.display = "block";
+	}
 }
 
 function classIter(e, c){
