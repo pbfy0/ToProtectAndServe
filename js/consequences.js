@@ -18,10 +18,12 @@ function load(){
 function eventClick(e){
 	var el = classIter(e.target, 'item');
 	if(!el) return;
+	var nel = el.querySelector("div");
+	var oel = activeel;
 	e.preventDefault();
 	activeel.style.display = "";
-	activeel = el.querySelector("div");
-	activeel.style.display = "block";
+	activeel = nel;
+	if(nel != oel) activeel.style.display = "block";
 }
 
 function classIter(e, c){
