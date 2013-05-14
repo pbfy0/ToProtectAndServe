@@ -24,7 +24,7 @@ function eventClick(e){
 	activeel.style.display = "";
 	activeel = nel;
 	if(nel == oel){
-		activeel.style.display = activeel.style.display ? "block" : ""
+		activeel.style.display = activeel.style.display == "block" ? "" : "block"
 	}else{
 		activeel.style.display = "block";
 	}
