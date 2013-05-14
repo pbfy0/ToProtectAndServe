@@ -7,4 +7,5 @@ body {
 	background: -ms-linear-gradient(top,  #666666 0%,#000000 180px); /* IE10+ */
 	background: linear-gradient(to bottom,  #666666 0%,#000000 180px); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	background-repeat: no-repeat;
 }
