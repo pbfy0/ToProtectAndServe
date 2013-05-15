@@ -17,7 +17,7 @@ console.log('loaded')
 
 function eventClick(e){
 	var el = classIter(e.target, 'item');
-	if(!el || el.getAttribute('href') == '#') return;
+	if(!el || e.target.getAttribute('href') != '#') return;
 	var nel = el.querySelector("div");
 	e.preventDefault();
 	if(nel == activeel){
