@@ -6,10 +6,10 @@ var activeel;
 function load(){
 console.log('loaded')
 	$("#content").addEventListener("click", eventClick, false)
-	var e = document.getElementById(location.hash)
+	var e = document.getElementById(location.hash.substr(1))
 	if(e){
-		activeel = e;
-		e.style.display = "block";
+		activeel = e.querySelector('div');
+		activeel.style.display = "block";
 	}else{
 		activeel = $(".item");
 	}
